@@ -19,3 +19,6 @@ The interesting parts for our "library" are in /library/Twitter.
 
 Have fun!
 If you encounter any errors, please report them here on Github. Thanks!
+=======
+Zend-Bootstrap
+==============

@@ -1,3 +1,12 @@
+<<<<<<< HEAD
 library/Zend
 .*un~
 /nbproject/private/
+=======
+INSTALL.txt
+LICENSE.txt
+README.txt
+demos/
+extras/documentation
+
+>>>>>>> 695148039e597ba536b710b1f84058ed34c5d19d
