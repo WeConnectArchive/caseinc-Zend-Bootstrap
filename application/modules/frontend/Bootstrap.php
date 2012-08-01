@@ -1,10 +1,11 @@
 <?php
-
-class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
+require_once("App/Application/Module/Bootstrap.php");
+class Frontend_Bootstrap extends App_Application_Module_Bootstrap
 {
-   protected function _initAppAutoload()
+  protected function _initAppAutoload()
   {
-     
+   
+    
     $autoloader = new Zend_Application_Module_Autoloader(array(
             'namespace' => '',
             'basePath' => dirname(__FILE__),
@@ -12,5 +13,6 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 
     return $autoloader;
   }
+
 }
 
