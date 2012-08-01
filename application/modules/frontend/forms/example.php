@@ -50,7 +50,7 @@ class Form_Example extends Twitter_Form
 			)
 		));
 
-		$this->addElement("multicheckbox", "multichecks", array(
+		$this->addElement("MultiCheckbox", "multichecks", array(
 			"description" => "This is a nice thing.",
 			"label" => "Foobar",
 			"multiOptions" => array(
@@ -59,7 +59,7 @@ class Form_Example extends Twitter_Form
 			)
 		));
 
-		$this->addElement("multicheckbox", "multichecks2", array(
+		$this->addElement("MultiCheckbox", "multichecks2", array(
 			"label" => "Inline checkboxes",
 			"inline" => true,
 			"multiOptions" => array(
